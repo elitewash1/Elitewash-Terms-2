@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Elite Wash | Terms & Conditions</title>
+    <meta name="description" content="Elite Wash Laundry & Dry Cleaning Services - Terms and Conditions">
+    <meta name="theme-color" content="#000000">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+            line-height: 1.7;
+        }
+
+        /* BRAND HEADER */
+        header {
+            background: #000;
+            padding: 28px 20px 32px;
+            text-align: center;
+            border-bottom: 3px solid #f5c400;
+        }
+
+        .brand-logo {
+            display: block;
+            width: min(850px, 100%);
+            height: auto;
+            max-height: 260px;
+            object-fit: contain;
+            margin: 0 auto;
+        }
+
+        /* NAVIGATION */
+        nav {
+            background: #111;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 3px 14px rgba(0,0,0,.18);
+        }
+
+        .nav-inner {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 13px 15px;
+            font-size: 13px;
+            font-weight: 700;
+            transition: .2s;
+        }
+
+        nav a:hover {
+            color: #ffd21c;
+            background: #1c1c1c;
+        }
+
+        /* CONTENT */
+        main {
+            max-width: 1000px;
+            margin: 38px auto;
+            padding: 0 18px;
+        }
+
+        .intro {
+            background: #fff;
+            border-radius: 14px;
+            padding: 30px;
+            margin-bottom: 22px;
+            box-shadow: 0 4px 18px rgba(0,0,0,.07);
+            border-top: 4px solid #f5c400;
+        }
+
+        .intro h2 {
+            color: #111;
+            margin-bottom: 10px;
+            font-size: 27px;
+        }
+
+        .intro p {
+            color: #555;
+        }
+
+        .terms-card {
+            background: #fff;
+            border-radius: 14px;
+            padding: 28px 30px;
+            margin-bottom: 18px;
+            box-shadow: 0 4px 18px rgba(0,0,0,.06);
+            border-left: 4px solid #111;
+        }
+
+        .terms-card h3 {
+            color: #111;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .terms-card p {
+            color: #444;
+        }
+
+        .important {
+            border-left-color: #f5c400;
+            background: #fffdf2;
+        }
+
+        .important h3 {
+            color: #7d6500;
+        }
+
+        .highlight {
+            font-weight: 700;
+            color: #111;
+        }
+
+        /* CONTACT */
+        .contact {
+            background: #000;
+            color: #fff;
+            border-radius: 16px;
+            padding: 34px 25px;
+            text-align: center;
+            margin-top: 28px;
+            box-shadow: 0 7px 24px rgba(0,0,0,.18);
+            border: 1px solid #333;
+        }
+
+        .contact h2 {
+            color: #f5c400;
+            margin-bottom: 8px;
+        }
+
+        .contact p {
+            color: #eee;
+        }
+
+        .phone {
+            display: inline-block;
+            margin-top: 18px;
+            background: #f5c400;
+            color: #000;
+            padding: 12px 25px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 800;
+            text-decoration: none;
+            transition: .2s;
+        }
+
+        .phone:hover {
+            background: #ffd92f;
+            transform: translateY(-1px);
+        }
+
+        /* FOOTER */
+        footer {
+            margin-top: 45px;
+            background: #090909;
+            color: #bbb;
+            text-align: center;
+            padding: 28px 18px;
+            border-top: 2px solid #f5c400;
+        }
+
+        footer strong {
+            color: #f5c400;
+        }
+
+        footer p {
+            font-size: 13px;
+            margin: 4px 0;
+        }
+
+        /* MOBILE */
+        @media (max-width: 600px) {
+            header {
+                padding: 18px 10px 22px;
+            }
+
+            .brand-logo {
+                max-height: 180px;
+            }
+
+            nav a {
+                padding: 10px 8px;
+                font-size: 11px;
+            }
+
+            main {
+                margin: 22px auto;
+                padding: 0 12px;
+            }
+
+            .intro,
+            .terms-card {
+                padding: 22px 20px;
+            }
+
+            .intro h2 {
+                font-size: 23px;
+            }
+
+            .terms-card h3 {
+                font-size: 18px;
+            }
+
+            .contact {
+                padding: 28px 18px;
+            }
+        }
+
+        /* PRINT */
+        @media print {
+            nav,
+            .phone {
+                display: none;
+            }
+
+            body {
+                background: white;
+            }
+
+            header {
+                background: white;
+                border-bottom: 2px solid #000;
+            }
+
+            .brand-logo {
+                max-height: 180px;
+            }
+
+            .intro,
+            .terms-card,
+            .contact {
+                box-shadow: none;
+                border: 1px solid #ccc;
+                break-inside: avoid;
+            }
+
+            .contact {
+                background: white;
+                color: black;
+            }
+
+            .contact h2,
+            .contact p {
+                color: black;
+            }
+
+            footer {
+                background: white;
+                color: black;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <!-- Your Elite Wash logo -->
+    <img class="brand-logo" src="logo.png" alt="Elite Wash - Laundry & Dry Cleaning">
+</header>
+
+<nav>
+    <div class="nav-inner">
+        <a href="#general">General</a>
+        <a href="#stains">Stain Removal</a>
+        <a href="#drycleaning">Dry Cleaning</a>
+        <a href="#complaints">Complaints</a>
+        <a href="#uncollected">Uncollected</a>
+        <a href="#compensation">Compensation</a>
+        <a href="#responsibility">Customer Responsibility</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<main>
+
+    <section class="intro">
+        <h2>Terms & Conditions</h2>
+        <p>
+            Please read the following Terms & Conditions carefully before
+            submitting garments for laundry or dry-cleaning services.
+            By submitting garments to Elite Wash, customers acknowledge
+            and agree to the terms stated below.
+        </p>
+    </section>
+
+    <section class="terms-card" id="general">
+        <h3>1. General Disclaimer</h3>
+        <p>
+            While every care is taken during the processing of garments,
+            the store shall not be held responsible for any damage,
+            colour fading, shrinkage, fabric deterioration, or loss of
+            embellishments that may occur during laundry or dry-cleaning
+            processes.
+        </p>
+    </section>
+
+    <section class="terms-card important" id="stains">
+        <h3>2. Stain Removal Policy</h3>
+        <p>
+            <span class="highlight">Stain removal is not guaranteed.</span>
+            We make every reasonable effort to remove stains; however,
+            certain stains may be permanent or may not be completely
+            removable.
+        </p>
+    </section>
+
+    <section class="terms-card" id="drycleaning">
+        <h3>3. Dry Cleaning Service Disclaimer</h3>
+        <p>
+            For dry-cleaning services, stain removal is attempted to the
+            best of our ability. However,
+            <span class="highlight">no guarantee of complete stain removal is provided.</span>
+        </p>
+    </section>
+
+    <section class="terms-card important" id="complaints">
+        <h3>4. Rewash / Complaint Policy</h3>
+        <p>
+            Any complaint regarding stains, damage, or service quality
+            must be reported within <span class="highlight">30 days from
+            the date of delivery</span>.
+        </p>
+
+        <p style="margin-top:12px;">
+            Requests for rewash, reprocessing, or service-related
+            complaints received after 30 days will not be entertained.
+        </p>
+
+        <p style="margin-top:12px;">
+            <span class="highlight">
+                Garments that have been worn or used after delivery are
+                not eligible for rewash or reprocessing.
+            </span>
+        </p>
+    </section>
+
+    <section class="terms-card" id="uncollected">
+        <h3>5. Uncollected Garments</h3>
+        <p>
+            Customers are requested to collect their garments within
+            <span class="highlight">30 days from the date of completion</span>.
+        </p>
+
+        <p style="margin-top:12px;">
+            After this period, the store shall not be responsible for
+            any loss, damage, deterioration, or other issues relating
+            to uncollected garments.
+        </p>
+    </section>
+
+    <section class="terms-card important" id="compensation">
+        <h3>6. Damage or Loss Compensation</h3>
+        <p>
+            In the unlikely event of damage or loss attributable to the
+            store, the <span class="highlight">maximum compensation shall
+            not exceed 10 times the service billing value of the affected
+            article</span>.
+        </p>
+    </section>
+
+    <section class="terms-card" id="responsibility">
+        <h3>7. Customer Responsibility</h3>
+        <p>
+            Customers are requested to inform the store at the time of
+            submission about any <span class="highlight">special care
+            instructions, fabric sensitivities, pre-existing damage,
+            stains, tears, or other conditions</span> that may affect
+            the processing of the garment.
+        </p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Customer Support</h2>
+        <p>
+            For any queries, complaints, or service-related assistance,
+            please contact us.
+        </p>
+
+        <a class="phone" href="tel:8090712733">
+            📞 8090712733
+        </a>
+
+        <p style="margin-top:20px;">
+            Thank you for choosing <strong>Elite Wash</strong>.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        © <span id="year"></span>
+        <strong>Elite Wash</strong> — Laundry & Dry Cleaning Services
+    </p>
+    <p>All rights reserved.</p>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
